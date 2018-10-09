@@ -3,10 +3,8 @@
 session_start();
 $email="";
 $password1="";
-
 $email=$_POST['email'];
 	$password1=$_POST['password1'];
-
 $conn=new mysqli('localhost' , 'root' , 'Tushar19' , 'Signup');
 if($conn->connect_error){
 	echo "Connection error";
@@ -14,7 +12,6 @@ if($conn->connect_error){
 else{
 }
 if (isset($_POST['login'])) {
-	
 
 	if (empty($email) || empty($password1)) {
 		if (empty($email)) {
@@ -46,7 +43,6 @@ if ($result->num_rows > 0) {
    } 
 
 }
-
 }
 
 if($a==1)
