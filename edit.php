@@ -20,7 +20,6 @@
 	<input type="radio" name="gender" value="female">Female<br>
 	<input type="radio" name="gender" value="other">Other<br>
 	<button name="applychanges" class="submit">Apply Changes</button>
-	
 </form>
 </body>
 </html>
